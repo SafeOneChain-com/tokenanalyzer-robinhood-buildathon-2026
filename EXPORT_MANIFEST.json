@@ -1,0 +1,229 @@
+{
+  "schemaVersion": 1,
+  "sourceCommit": "3ded629d66f47f951b79cd3ab5cde36471440f63",
+  "generatedAt": "2026-09-27",
+  "hashAlgorithm": "SHA-256",
+  "scope": "All publication files except this self-referential manifest.",
+  "files": [
+    {
+      "path": ".env.example",
+      "bytes": 187,
+      "sha256": "9d7c8ae654f697e4ee5174e4b2d1c3b6c6a437cc3570cd3d3d7c94297beabc35"
+    },
+    {
+      "path": ".gitattributes",
+      "bytes": 73,
+      "sha256": "4cc9b057e841df843d8de02a61f58aeeac844f732d4de048f8582b9f99d12a6a"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 166,
+      "sha256": "d5730df35fbc1e9888b86a1f80abf71fa4844b92b3a99ff1089ae30c9139b645"
+    },
+    {
+      "path": "contracts/evidence-anchor/contracts/TokenAnalyzerEvidenceAnchor.sol",
+      "bytes": 3281,
+      "sha256": "34e1553be751cd9c07fc73b7c2844de9bf3c7e48d1f8e0546b6862cda141f51e"
+    },
+    {
+      "path": "contracts/evidence-anchor/hardhat.config.js",
+      "bytes": 889,
+      "sha256": "ccc1b86f8c83ca5a4521e112ff8b45d4d341dcb567119c3e7610081260a4125b"
+    },
+    {
+      "path": "contracts/evidence-anchor/package-lock.json",
+      "bytes": 299948,
+      "sha256": "d40908f6e2d65675ed42d8679392026e7c0e4cdb8a1bc9136c211afeedce3ff7"
+    },
+    {
+      "path": "contracts/evidence-anchor/package.json",
+      "bytes": 426,
+      "sha256": "34c1d424ec2385dd32837f26562ac6b0523f85508d9d7f4b77ff389d08c2e519"
+    },
+    {
+      "path": "contracts/evidence-anchor/README.md",
+      "bytes": 1608,
+      "sha256": "bad735873de727594009b069b54129ba33898043affa34edb3b59ccc4e2b1ef0"
+    },
+    {
+      "path": "contracts/evidence-anchor/scripts/deploy-testnet.js",
+      "bytes": 756,
+      "sha256": "e97493fcd7a5468f44c8f6651b898e96f86530c73e47f9ed05e79218663ff341"
+    },
+    {
+      "path": "contracts/evidence-anchor/test/TokenAnalyzerEvidenceAnchor.gas.js",
+      "bytes": 588,
+      "sha256": "a00b5ae6368ff99f2081abb7b595ac8b8dfc43e612f41cc97df053381c0b7c4d"
+    },
+    {
+      "path": "contracts/evidence-anchor/test/TokenAnalyzerEvidenceAnchor.js",
+      "bytes": 2527,
+      "sha256": "3cd201a09529a964a1c8befc282e68d647b2e465eb584171bdd057660f967b71"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "bytes": 1433,
+      "sha256": "659bd0bb58bf25f1657cca6013e822b5292852362773ed3271c637218223ec81"
+    },
+    {
+      "path": "docs/VERIFIED_EVIDENCE.md",
+      "bytes": 1113,
+      "sha256": "0ff72e43ec240c8a198aed1e6673433eedee281871300ddcb73e4771093aa7b6"
+    },
+    {
+      "path": "fixtures/aapl-anchored-snapshot.json",
+      "bytes": 1246,
+      "sha256": "c1bcdaa17d46ba148ef8dfb12d8af87342563123c3e691f2c659b834f8cfd3fb"
+    },
+    {
+      "path": "LICENSE_SCOPE.md",
+      "bytes": 680,
+      "sha256": "27d3165ec906e27f3704a6383a020b242c935850499ef504a1df0cdfaf5ec085"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 38900,
+      "sha256": "bdbfe048d5a5e946533945904d9f8193c1e29bb0f00fc5b6c0cf1a73e29400ca"
+    },
+    {
+      "path": "package.json",
+      "bytes": 912,
+      "sha256": "6d86ce9184a5dd839117af70a79f51b8be37461d203bc9be71578c7801f2d676"
+    },
+    {
+      "path": "public/anchor-demo.js",
+      "bytes": 1196,
+      "sha256": "333bc8dc6a6ff57752580dc526188dcc380b14d13fb661744d8128ef9de6fd6a"
+    },
+    {
+      "path": "public/app.css",
+      "bytes": 2942,
+      "sha256": "f79ff44ef3ba45f203f31faa4e4a955f0656289148e1eb55b86e359e3fdd2066"
+    },
+    {
+      "path": "public/index.html",
+      "bytes": 4495,
+      "sha256": "48a7a9276772fb18d4b492e65719bf1b4547fe454c053b5fb5cc1c0c728e5373"
+    },
+    {
+      "path": "public/robinhood.css",
+      "bytes": 6214,
+      "sha256": "19b918f0f0084a7f5087de016c321344b9a5faba9cd124d55edffba2633c7b56"
+    },
+    {
+      "path": "public/robinhood.js",
+      "bytes": 20805,
+      "sha256": "7cca6e94075ef947493b6e73117b4ecbd827d696b54baf26a50edd11a10ede72"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2716,
+      "sha256": "39a914ae2edb1754a6760ed2e69fed06959e6fa49169933b300af49175a82816"
+    },
+    {
+      "path": "scripts/generate-manifest.js",
+      "bytes": 1127,
+      "sha256": "464394459b1fdfb93c30e258a1e74bb083f705fd54c6bf803c45c11cab1443d3"
+    },
+    {
+      "path": "scripts/scan-secrets.js",
+      "bytes": 1297,
+      "sha256": "69b09965a31ae51bf51187223bd0c58ea20d1577621edea132fc94c0ffcfd593"
+    },
+    {
+      "path": "scripts/verify-export.js",
+      "bytes": 1511,
+      "sha256": "82d2e0650b589b8aa17af6daefd199caf1690ff2a1510e889af01daf0a09902e"
+    },
+    {
+      "path": "scripts/verify-fixture.js",
+      "bytes": 473,
+      "sha256": "e8173cdf77d093d95b2a73da3f92e6d759ee9c3798cc341df8fb719eb3310d61"
+    },
+    {
+      "path": "SECURITY.md",
+      "bytes": 808,
+      "sha256": "ac3327b0145002b8178f290c480e1be5f7ed90f3d5d121647d59d9072cd9c225"
+    },
+    {
+      "path": "server.js",
+      "bytes": 1911,
+      "sha256": "3abe68bfe5c255452eec79681dcb01d5262d4a77c5b24089bcca917ba1810a40"
+    },
+    {
+      "path": "SOURCE_PROVENANCE.md",
+      "bytes": 1275,
+      "sha256": "c579192634e259ac02ad4f6c6196fd4f769d3a3a1f19d3e9edc988a50ea99538"
+    },
+    {
+      "path": "src/evm/chainRegistry.js",
+      "bytes": 2102,
+      "sha256": "71e9b63b8a15580f0173cd9468493411bd36379be712bc5db9582d9b173b88aa"
+    },
+    {
+      "path": "src/evm/erc20Reader.js",
+      "bytes": 3171,
+      "sha256": "bfd4fb9226fe49cea0acfae7883b5055226654cb9aa704e9efbd050cd6f38cd5"
+    },
+    {
+      "path": "src/evm/readClient.js",
+      "bytes": 4630,
+      "sha256": "1bd67fa30324b62d5a243ee85d9856798422cce066d10ee82a4709d0418a8f86"
+    },
+    {
+      "path": "src/services/robinhoodAssetInspectionService.js",
+      "bytes": 8511,
+      "sha256": "0f40e4ba07ea91bf1b0b2cd82841a1b3b59b669319e3d5fd25a2cbb96f303bbf"
+    },
+    {
+      "path": "src/services/robinhoodChainlinkFeedDirectory.js",
+      "bytes": 6337,
+      "sha256": "38e60144a7665e54137795ff6569e3f32f430cf89edb1fba62905a4b9e938c0c"
+    },
+    {
+      "path": "src/services/robinhoodDecimal.js",
+      "bytes": 1135,
+      "sha256": "c6fe57f78cb9e29d329fc2c9f82748fcea34f107311392d0842f6ed117a8259e"
+    },
+    {
+      "path": "src/services/robinhoodEvidenceAnchor.js",
+      "bytes": 4860,
+      "sha256": "e27ae0180ce7bbdd0f1db22a969468f913cf868560f7009167fac442c1e5c091"
+    },
+    {
+      "path": "src/services/robinhoodOfficialAssetRegistry.js",
+      "bytes": 5509,
+      "sha256": "9f2dd7a1262749aea79706b9adf6aa597bed5d3d6464bb3cdd54ac5544b777f3"
+    },
+    {
+      "path": "src/services/robinhoodOracleIntegrityService.js",
+      "bytes": 13767,
+      "sha256": "03d74c62db778419412265c6ebc1f29d77a3547745947215dee63012126aae5e"
+    },
+    {
+      "path": "src/services/robinhoodStockTokenIntegrityService.js",
+      "bytes": 11652,
+      "sha256": "5583d8590c99db87da99285aa8014f8e213a694be8fe72239d85cdffccdac07d"
+    },
+    {
+      "path": "test/core.test.js",
+      "bytes": 2277,
+      "sha256": "e1c031dfbafa718131c1cf779db954276782f55c4c37816684f04c75e5b0d78c"
+    },
+    {
+      "path": "test/evidence-anchor.test.js",
+      "bytes": 1108,
+      "sha256": "cbfeacd8a070b4dcae8d6b4f9039630b5b6567d4a43db5cb5834db33d3fb7e23"
+    },
+    {
+      "path": "test/server.test.js",
+      "bytes": 1063,
+      "sha256": "031b0f068e7a8a5c797d76e0da46bd312f4fb8ca3052e04a8ab721a7661297f9"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 603,
+      "sha256": "892cdd0c6ace2ac9952d10b6ca29f16b7deead032cdb7d09733b46628f26bbdb"
+    }
+  ]
+}

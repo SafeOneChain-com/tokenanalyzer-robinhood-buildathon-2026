@@ -1,0 +1,24 @@
+{
+  "name": "tokenanalyzer-robinhood-buildathon-2026",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Standalone public competition slice for Robinhood Chain asset verification and evidence anchoring.",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test/core.test.js && node test/evidence-anchor.test.js && node test/server.test.js && npm run verify:fixture && npm run verify:export",
+    "verify:fixture": "node scripts/verify-fixture.js",
+    "manifest": "node scripts/generate-manifest.js",
+    "verify:export": "node scripts/verify-export.js",
+    "scan:secrets": "node scripts/scan-secrets.js",
+    "contract:compile": "npm --prefix contracts/evidence-anchor run compile",
+    "contract:test": "npm --prefix contracts/evidence-anchor test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "express": "5.2.1",
+    "viem": "2.45.1"
+  }
+}

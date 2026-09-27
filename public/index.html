@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="TokenAnalyzer Robinhood Chain asset verification and cryptographic evidence anchoring competition slice.">
+  <title>TokenAnalyzer × Robinhood Chain</title>
+  <link rel="stylesheet" href="/app.css">
+  <link rel="stylesheet" href="/robinhood.css">
+</head>
+<body>
+  <header class="bex-header robinhood-header">
+    <div class="bex-header-inner bex-header-row">
+      <a class="bex-brand" href="/">TokenAnalyzer</a>
+      <div class="robinhood-header-actions">
+        <a class="btn secondary" href="https://tokenanalyzer.io/" rel="noopener noreferrer">Product</a>
+        <button class="bex-toggle" type="button" aria-label="Switch to dark mode">Dark mode</button>
+      </div>
+    </div>
+  </header>
+  <main class="bex-shell robinhood-shell">
+    <section class="section-card robinhood-preview-notice" aria-label="Competition repository notice">
+      <strong>ROBINHOOD BUILDATHON 2026</strong>
+      <span>Standalone competition slice</span>
+      <p>This repository contains the reviewed Robinhood Chain integration only. It is not the TokenAnalyzer production backend.</p>
+    </section>
+    <section class="section-card hero">
+      <p class="robinhood-eyebrow">Read-only verification · deterministic evidence · on-chain integrity</p>
+      <h1>Verify the asset. Recompute the evidence. Check the anchor.</h1>
+      <p>TokenAnalyzer separates self-reported ERC-20 metadata from official asset identity, compares multiple price evidence sources without inventing certainty, and commits canonical evidence hashes to Robinhood Chain Testnet.</p>
+      <div class="hero-actions">
+        <a class="btn primary" href="#verify">Try the verifier</a>
+        <a class="btn secondary" href="https://bex.tokenops.io/bex/robinhood-preview.html" rel="noopener noreferrer">Open hosted demo</a>
+      </div>
+    </section>
+    <section class="metrics" aria-label="Verified evidence">
+      <article class="section-card"><strong>46630</strong><span>Robinhood Chain Testnet</span></article>
+      <article class="section-card"><strong>1</strong><span>Anchored AAPL snapshot</span></article>
+      <article class="section-card"><strong>0</strong><span>Wallet actions required</span></article>
+    </section>
+    <section class="section-card" aria-labelledby="anchor-title">
+      <h2 id="anchor-title">Reproducible AAPL evidence anchor</h2>
+      <div id="anchorEvidence" class="anchor-grid" aria-live="polite"><p>Loading committed fixture…</p></div>
+      <p class="robinhood-section-note">The contract stores only the evidence hash, asset key, schema version, attestor, and timestamp. It stores no price, verdict, personal data, or full evidence payload.</p>
+    </section>
+    <section id="verify" class="section-card robinhood-form-card" aria-labelledby="robinhood-form-title">
+      <h2 id="robinhood-form-title">Read-only asset verification</h2>
+      <form id="robinhoodVerificationForm" novalidate>
+        <div class="robinhood-form-grid">
+          <label for="robinhoodNetwork">Network<select id="robinhoodNetwork" name="network" required aria-describedby="robinhoodNetworkHelp"></select></label>
+          <label for="robinhoodAddress">Contract address<input id="robinhoodAddress" name="address" inputmode="text" autocomplete="off" spellcheck="false" placeholder="0x…" required></label>
+        </div>
+        <p id="robinhoodNetworkHelp" class="robinhood-help">Configure an optional read-only RPC URL in your local environment to enable inspection. The evidence fixture above works offline.</p>
+        <div id="robinhoodDemoAssets" class="robinhood-demo-assets" hidden></div>
+        <div class="robinhood-form-actions"><button class="btn primary" type="submit" id="robinhoodVerify">Verify Asset</button></div>
+        <p id="robinhoodFormStatus" class="robinhood-status" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+    <section id="robinhoodResults" class="robinhood-results" aria-live="polite">
+      <div class="section-card robinhood-empty-state"><h2>Awaiting a contract</h2><p>Choose a configured network and enter a contract address.</p></div>
+    </section>
+  </main>
+  <footer><p>Competition artifact · Read-only by design · No investment recommendation</p></footer>
+  <script src="/anchor-demo.js"></script>
+  <script src="/robinhood.js"></script>
+</body>
+</html>

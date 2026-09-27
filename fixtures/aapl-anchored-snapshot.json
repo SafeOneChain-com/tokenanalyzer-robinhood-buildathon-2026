@@ -1,0 +1,29 @@
+{
+  "snapshot": {
+    "schemaVersion": 1,
+    "evidenceType": "ROBINHOOD_STOCK_TOKEN_INTEGRITY",
+    "assetNamespace": "ROBINHOOD_STOCK_TOKEN",
+    "assetChainId": 4663,
+    "assetIdentifier": "0xaF3D76f1834A1d425780943C99Ea8A608f8a93f9",
+    "observedAt": "2026-09-21T08:00:00.000Z",
+    "evidenceSources": [
+      { "sourceName": "Robinhood Asset API", "sourceType": "OFFICIAL_IDENTITY", "status": "AVAILABLE" },
+      { "sourceName": "Chainlink Oracle", "sourceType": "ONCHAIN_ORACLE", "status": "AVAILABLE" }
+    ],
+    "evidencePayload": { "multiplier": "1", "oracleStatus": "FRESH", "price": null }
+  },
+  "expected": {
+    "evidenceHash": "0xfeafca9a653947e528e112711f3a99ee9488cf5d10464b1ab75a98932b179121",
+    "assetKey": "0x0192635cb5f077288bc670d95c17c85575d1109d0858ffdcaca3e8096581f70e"
+  },
+  "anchor": {
+    "network": "Robinhood Chain Testnet",
+    "chainId": 46630,
+    "contractAddress": "0xA0D2f089Cc8d6DC0F5785887b6D646bf3F262455",
+    "deploymentTransaction": "0x5e13361f1808da296fa0766a70d32554e9db670194633b04310403022fb76d52",
+    "deploymentBlock": 122390120,
+    "transactionHash": "0xbd6d27955a28eb8b1f871767fbd31ddb8a59309be0d5e1d46072da1c3a744da0",
+    "blockNumber": 122392231,
+    "verification": "VERIFIED"
+  }
+}

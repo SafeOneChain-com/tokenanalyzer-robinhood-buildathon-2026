@@ -1,0 +1,15 @@
+{
+  "name": "tokenanalyzer-evidence-anchor",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "gas": "hardhat test test/TokenAnalyzerEvidenceAnchor.gas.js",
+    "deploy:testnet": "hardhat run scripts/deploy-testnet.js --network robinhoodTestnet"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "5.0.0",
+    "hardhat": "2.28.0"
+  }
+}

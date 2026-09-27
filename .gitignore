@@ -1,0 +1,9 @@
+node_modules/
+contracts/evidence-anchor/node_modules/
+contracts/evidence-anchor/artifacts/
+contracts/evidence-anchor/cache/
+.env
+.env.*
+!.env.example
+*.log
+coverage/
