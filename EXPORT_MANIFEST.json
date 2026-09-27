@@ -117,8 +117,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 2716,
-      "sha256": "39a914ae2edb1754a6760ed2e69fed06959e6fa49169933b300af49175a82816"
+      "bytes": 5537,
+      "sha256": "0e674d4a20c38d84e7a717e34bdbe6d967d005980e2e25c9239d1550f82d33e8"
     },
     {
       "path": "scripts/generate-manifest.js",
@@ -152,8 +152,8 @@
     },
     {
       "path": "SOURCE_PROVENANCE.md",
-      "bytes": 1275,
-      "sha256": "c579192634e259ac02ad4f6c6196fd4f769d3a3a1f19d3e9edc988a50ea99538"
+      "bytes": 3511,
+      "sha256": "820730e46225c704e35082ff06eb74657d77f222c0189d4ca7f507905c6b66d1"
     },
     {
       "path": "src/evm/chainRegistry.js",
